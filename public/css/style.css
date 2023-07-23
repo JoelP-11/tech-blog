@@ -5,14 +5,12 @@ body {
     color: #333;
   }
   
-  /* Define a container to center the content */
   .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
   }
   
-  /* Header styles */
   header {
     text-align: center;
     padding: 20px 0;
@@ -28,7 +26,6 @@ body {
     font-size: 18px;
   }
   
-  /* Navigation styles */
   nav {
     display: flex;
     justify-content: space-between;
@@ -51,7 +48,6 @@ body {
     font-size: 18px;
   }
   
-  /* Homepage styles */
   .homepage {
     margin-top: 20px;
   }
@@ -69,7 +65,6 @@ body {
     color: #666;
   }
   
-  /* Form styles */
   form {
     margin-top: 20px;
   }
@@ -98,7 +93,6 @@ body {
     cursor: pointer;
   }
   
-  /* Dashboard styles */
   .dashboard {
     margin-top: 20px;
   }
@@ -130,7 +124,6 @@ body {
     cursor: pointer;
   }
   
-  /* Comment styles */
   .comments {
     margin-top: 20px;
   }
@@ -151,14 +144,12 @@ body {
     color: #999;
   }
   
-  /* Footer styles */
   footer {
     text-align: center;
     padding: 20px 0;
     background-color: #f2f2f2;
   }
   
-  /* Responsive styles */
   @media (max-width: 768px) {
     header h1 {
       font-size: 28px;
@@ -168,4 +159,3 @@ body {
       font-size: 16px;
     }
   }
-  
