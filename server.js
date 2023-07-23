@@ -29,7 +29,7 @@ app.use(session(sess));
 
 const hbs = exphbs.create({ helpers });
 
-app.engine('handlerbars', hbs.engine);
+app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
 app.use(express.json());
